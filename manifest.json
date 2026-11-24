@@ -8,6 +8,7 @@
     "luna"
   ],
   "html" : "index.html",
+  "icon" : "icon.png",
   "id" : "com.jacobsilver.track_view",
   "local_content_offset" : "..\/..\/..",
   "manufacturer" : "JSservices",
