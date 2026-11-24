@@ -1,5 +1,7 @@
 # Track View
 
+![Track View showing a channel strip: 1176AE, Distressor, sends and fader](.github/screenshot.png)
+
 A LUNA editor panel (under the Timeline) that shows the selected track's whole channel strip as
 a device chain, the way Bitwig's device panel or Ableton's track view does.
 
