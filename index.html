@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Track View</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="app">
+    <aside id="head">
+      <div class="colorbar"></div>
+      <div class="head-top">
+        <span class="kind-icon" id="kindIcon"></span>
+        <button class="track-name" id="trackName" title="Choose the channel Track View shows">—</button>
+      </div>
+      <div class="head-row">
+        <button class="lbtn" id="follow" title="Follow LUNA's selected track">FOLLOW</button>
+        <button class="lbtn" id="viewMode" title="Show plugins as their own GUIs or as parameter lists">GUI</button>
+      </div>
+      <div class="filters" id="filters" title="Show or hide sections"></div>
+      <div class="fields">
+        <div class="field"><span class="k">TYPE</span><span class="v" id="kindText">—</span></div>
+        <div class="field"><span class="k">FMT</span><span class="v" id="fmtText">—</span></div>
+        <div class="field"><span class="k">FX</span><span class="v" id="fxText">—</span></div>
+        <div class="field" id="folderField" hidden><span class="k">FOLDER</span><span class="v" id="folderText"></span></div>
+        <div class="field" id="presetField" hidden><span class="k">PRESET</span><button class="v link" id="presetBtn" title="Track presets">None</button></div>
+      </div>
+      <div class="badges" id="badges"></div>
+      <textarea id="notes" placeholder="Comments" spellcheck="false" hidden></textarea>
+      <div class="head-foot">
+        <span id="status">connecting…</span>
+      </div>
+    </aside>
+
+    <main id="chainWrap">
+      <div id="chain"></div>
+      <div id="empty" class="empty" hidden></div>
+    </main>
+
+    <section id="strip"></section>
+  </div>
+
+  <div id="overlay" hidden></div>
+  <div id="menu" hidden></div>
+  <div id="tip" hidden></div>
+
+  <script src="vendor/luna.global.js"></script>
+  <script src="plugin-gui.js"></script>
+  <script src="logic.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>

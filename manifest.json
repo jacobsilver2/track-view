@@ -1,0 +1,20 @@
+{
+  "categories" : [
+    "Mixing & Mastering",
+    "Workflow"
+  ],
+  "description" : "The whole channel strip of the selected track as a Bitwig\/Ableton-style device chain under the Timeline: input, record and MIDI FX, tape, console, inserts in their own UA plugin GUIs, sidechain, sends as mini strips, output and fader. Plugin GUIs need macOS and LUNA's native UA plugins; elsewhere plugins show as parameter lists.",
+  "engines" : [
+    "luna"
+  ],
+  "html" : "index.html",
+  "id" : "com.jacobsilver.track_view",
+  "local_content_offset" : "..\/..\/..",
+  "manufacturer" : "JSservices",
+  "min_luna_version" : "3.1.2",
+  "package_name" : "Track View",
+  "sdk_version" : "3.1.2",
+  "target" : "editor",
+  "title" : "Track View",
+  "version" : "0.1.0"
+}
